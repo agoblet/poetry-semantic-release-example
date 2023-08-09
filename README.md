@@ -1,8 +1,12 @@
 # semantic-release-example
 
-Example semantic release system. 
-Inspired by a [blog](https://devpress.csdn.net/cicd/62eca57d89d9027116a11693.html#devmenu6) by [MeStrak](https://github.com/MeStrak).
-Uses:
+Example semantic release setup. 
+This setup is language-agnostic.
+It creates a Github release, it does not compile or push any software.
+A workflow can be linked to the release event to start the language-specific release process.
+
+## Setup
+
 - [Conventional Commits](https://www.conventionalcommits.org) as the commit message specification
 - [Semantic PR](https://github.com/Ezard/semantic-prs) to enforce semantic PR titles
 - [semantic-release-action](https://github.com/cycjimmy/semantic-release-action) to automatically create new Github releases based on commit messages
