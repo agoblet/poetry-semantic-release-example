@@ -20,8 +20,8 @@ jobs:
       - name: Semantic Release
         uses: cycjimmy/semantic-release-action@v4
         with:
-          semantic_version: 19.0.5
+          semantic_version: 22
           extra_plugins: |
-            conventional-changelog-conventionalcommits@7
+            conventional-changelog-conventionalcommits@6
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
