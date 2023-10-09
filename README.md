@@ -7,6 +7,7 @@ A workflow can be linked to the release [event](https://docs.github.com/en/actio
 
 ## Setup
 
+
 - [Conventional Commits](https://www.conventionalcommits.org) as the commit message specification
 - [Semantic PR](https://github.com/Ezard/semantic-prs) to enforce semantic PR titles
 - [semantic-release-action](https://github.com/cycjimmy/semantic-release-action) to automatically create new Github releases based on commit messages
